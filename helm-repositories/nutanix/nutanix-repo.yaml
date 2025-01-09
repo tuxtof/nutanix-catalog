@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: HelmRepository
+metadata:
+  name: nutanix-helm-releases
+  namespace: ${releaseNamespace}
+spec:
+  interval: 1m0s
+  url: https://nutanix.github.io/helm-releases

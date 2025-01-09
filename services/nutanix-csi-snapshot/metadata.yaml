@@ -1,0 +1,15 @@
+displayName: Nutanix CSI Snapshot
+description: Nutanix CSI Snapshot
+category:
+  - Storage
+type: catalog
+allowMultipleInstances: false
+scope:
+  - workspace
+licensing:
+  - Ultimate
+  - Enterprise
+certifications:
+overview: |-
+  # Overview
+  The Nutanix CSI Snapshot

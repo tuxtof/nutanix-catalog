@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nutanix-csi-storage-3.2.0-defaults
+  namespace: ${releaseNamespace}
+data:
+  values.yaml: |-
+    createPrismCentralSecret: false
+    createSecret: false

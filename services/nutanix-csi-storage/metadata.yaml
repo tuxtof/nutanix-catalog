@@ -1,0 +1,17 @@
+displayName: Nutanix CSI Storage Driver
+description: Nutanix CSI Storage Driver allows Kubernetes to manage persistent storage using Nutanix Platform
+category:
+  - Storage
+type: catalog
+allowMultipleInstances: false
+dependencies:
+  - nutanix-csi-snapshot
+scope:
+  - workspace
+licensing:
+  - Ultimate
+  - Enterprise
+certifications:
+overview: |-
+  # Overview
+  The Nutanix CSI Storage Driver allows Kubernetes to manage persistent storage using Nutanix Volumes and Nutanix Files. It provides scalable and reliable storage solutions for stateful applications, ensuring data persistence and high availability.
